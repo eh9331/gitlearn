@@ -1,1 +1,19 @@
-瞬间git就把仓库建好了
+
+mkdir learngit
+cd learngit
+pwd
+git init
+
+
+git add file_name
+...
+git commit -m "note"
+
+
+git remote add origin git@github.com:eh9331/repo_name.git   	//name can be changed
+git push -u origin master					//-u means union,first-time need it
+git push origin master						//next time can be simplified
+
+
+
+
